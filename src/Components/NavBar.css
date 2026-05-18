@@ -7,16 +7,6 @@ nav {
     padding: 1rem 3rem;
 }
 
-.logo {
-   font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: 700;
-    background: linear-gradient(to right, #8B5CF6, #EC4899);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 ul {
     display: flex;
     list-style: none;
@@ -26,14 +16,15 @@ ul {
 li {
     color: white;
     cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: 1px solid transparent;
+    padding: 7px 15px;
+    border-radius: 20px;
     transition: all 0.3s ease;
+    border: 1px solid rgba(79, 142, 247, 0.5);
 }
 
 li:hover {
-    color: #c7bbe3;
-    border: 1px solid #8B5CF6;
-    box-shadow: 0 0 5px #8B5CF6, 0 0 5px #8B5CF6;
+    border-color: #4F8EF7;
+    box-shadow: 0 0 20px rgba(79, 142, 247, 0.3);
+    transform: translateY(-2px);
+
 }
