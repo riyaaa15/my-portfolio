@@ -19,7 +19,7 @@ li {
     padding: 7px 15px;
     border-radius: 20px;
     transition: all 0.3s ease;
-    border: 1px solid rgba(79, 142, 247, 0.5);
+    /* border: 1px solid rgba(79, 142, 247, 0.5); */
 }
 
 li:hover {
