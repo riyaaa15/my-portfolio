@@ -3,7 +3,7 @@ import profileImg from '../assets/my avatar.png';
 
 export default function Hero() {
     return (
-        <section className="hero">
+        <section className="hero" id="hero">
             <div className="hero-content">
                 <p className="hero-greeting">Hi, I'm</p>
                 <h1 className="hero-name">Riya</h1>
