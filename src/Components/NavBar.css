@@ -19,12 +19,11 @@ li {
     padding: 7px 15px;
     border-radius: 20px;
     transition: all 0.3s ease;
-    /* border: 1px solid rgba(79, 142, 247, 0.5); */
 }
 
 li:hover {
     border-color: #4F8EF7;
     box-shadow: 0 0 20px rgba(79, 142, 247, 0.3);
     transform: translateY(-2px);
-
+    color: #4F8EF7;
 }
